@@ -21,3 +21,8 @@
 @import url("blocks/_newsletter.css");
 @import url("blocks/_about.css");
 @import url("blocks/_footer.css");
+
+/* about */
+@import url("blocks/_notice.css");
+@import url("blocks/_about-hero.css");
+@import url("blocks/_brand-info.css");

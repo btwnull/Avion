@@ -41,3 +41,10 @@
   line-height: 150%;
   color: var(--dark-primary);
 }
+
+.benefits--about .benefits__item {
+  background-color: var(--light-grey);
+  padding: 48px;
+  padding-top: 84px;
+  background-position: 48px 48px;
+}

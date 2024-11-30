@@ -26,3 +26,8 @@
   color: var(--dark-primary);
   background: var(--light-grey);
 }
+
+.btn--theme-white {
+  color: var(--dark-primary);
+  background: var(--white);
+}
