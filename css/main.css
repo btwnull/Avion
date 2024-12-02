@@ -26,3 +26,9 @@
 @import url("blocks/_notice.css");
 @import url("blocks/_about-hero.css");
 @import url("blocks/_brand-info.css");
+
+/* catalog */
+@import url("blocks/_inner-hero.css");
+@import url("blocks/_catalog.css");
+@import url("blocks/_filters.css");
+@import url("blocks/_custom-checkbox.css");

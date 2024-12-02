@@ -1,0 +1,28 @@
+.catalog {
+  padding: 36px 0;
+}
+
+.catalog__column {
+  grid-column: 3 span;
+  padding-top: 12px;
+}
+
+.catalog__wrapper {
+  grid-column: 9 span;
+}
+
+.catalog__products {
+  --column-gap: 20px;
+  --elems: 3;
+
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: var(--column-gap);
+  row-gap: 36px;
+}
+
+.catalog__item {
+  width: calc(
+    (100% - ((var(--elems) - 1) * var(--column-gap))) / (var(--elems))
+  );
+}
