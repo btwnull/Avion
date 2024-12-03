@@ -1,0 +1,150 @@
+.cart {
+  padding: 84px 0;
+  background: var(--light-grey);
+}
+
+.cart__content {
+  background-color: var(--white);
+  padding: 72px 63px;
+  padding-bottom: 54px;
+}
+
+.cart__table {
+  margin-bottom: 20px;
+  border-bottom: 1px solid var(--light-grey);
+  padding-bottom: 28px;
+}
+
+.cart-grid {
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  column-gap: 7px;
+}
+
+.cart__col {
+  grid-column: 6 span;
+}
+
+.cart__col--quantity {
+  grid-column: 2 span;
+  padding-left: 75px;
+}
+
+.cart__col--total {
+  grid-column: 2 span;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.cart__col--image {
+  grid-column: 1 span;
+}
+
+.cart__image {
+  display: block;
+}
+
+.cart__stepper {
+  padding-top: 12px;
+}
+
+.cart__info {
+  padding-left: 17px;
+  padding-top: 12px;
+  max-width: 240px;
+}
+
+.cart__col--info {
+  grid-column: 5 span;
+}
+
+.cart__row:not(:last-of-type) {
+  margin-bottom: 32px;
+}
+
+.cart__row .cart__row--heading {
+  margin-bottom: 28px;
+  font-family: var(--second-family);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 140%;
+  color: var(--dark-primary);
+
+  padding-bottom: 12px;
+  border-bottom: 1px solid var(--light-grey);
+}
+
+.cart__title {
+  font-family: var(--second-family);
+  margin: 0;
+  margin-bottom: 8px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 140%;
+  color: var(--dark-primary);
+}
+
+.cart__descr {
+  margin: 0;
+  margin-bottom: 8px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  color: var(--dark-primary);
+}
+
+.cart__price {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: var(--dark-primary);
+}
+
+.cart__total {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  color: var(--dark-primary);
+
+  padding-top: 12px;
+}
+
+.cart__bottom-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  margin-bottom: 16px;
+}
+
+.cart__text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  text-align: right;
+  color: var(--primary);
+}
+
+.cart__subtotal {
+  font-family: var(--second-family);
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 140%;
+  text-align: right;
+  color: var(--primary);
+}
+
+.cart__subtotal--price {
+  margin-left: 16px;
+  font-family: var(--second-family);
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 140%;
+  text-align: right;
+  color: var(--dark-primary);
+}
+
+.cart__btn-wrap {
+  display: flex;
+  justify-content: flex-end;
+}

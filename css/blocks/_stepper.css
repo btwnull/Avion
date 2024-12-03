@@ -1,0 +1,40 @@
+.stepper {
+  display: flex;
+  width: 122px;
+  background: var(--white);
+}
+
+.stepper__btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 42px;
+  flex-shrink: 0;
+  padding: 12px 16px;
+  font-family: inherit;
+  font-weight: 400;
+  font-size: 16px;
+
+  color: var(--dark-primary);
+  user-select: none;
+}
+
+.stepper__btn--disabled {
+  color: var(--border-grey);
+  pointer-events: none;
+}
+
+.stepper__input {
+  width: calc(100% - 84px);
+  border: none;
+  font-family: inherit;
+  font-weight: 400;
+  font-size: 16px;
+  text-align: center;
+  color: var(--dark-primary);
+  background-color: inherit;
+}
+
+.stepper--cart {
+  background-color: var(--light-grey);
+}
