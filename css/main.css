@@ -6,6 +6,7 @@
 
 /* blocks */
 @import url("blocks/_stepper.css");
+@import url("blocks/_burger.css");
 @import url("blocks/_btn.css");
 @import url("blocks/_header.css");
 @import url("blocks/_logo.css");
@@ -39,3 +40,6 @@
 
 /* cart */
 @import url("blocks/_cart.css");
+
+/* media */
+@import url("blocks/_media.css");

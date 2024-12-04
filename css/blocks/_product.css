@@ -35,6 +35,7 @@
 .product__link {
   color: inherit;
   text-decoration: none;
+  transition: var(--main-trs);
 }
 
 .product__link::after {
@@ -48,4 +49,23 @@
   font-size: 18px;
   line-height: 150%;
   color: var(--dark-primary);
+}
+
+.product__link:focus {
+  outline: none;
+}
+
+.product__link:focus-visible::after {
+  outline: 2px dashed var(--dark-primary);
+  outline-offset: var(--outline-offset);
+}
+
+@media (any-hover: hover) {
+  .product__link:hover {
+    color: var(--primary);
+  }
+}
+
+.product__link:active {
+  color: var(--border-dark);
 }

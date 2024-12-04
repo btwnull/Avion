@@ -31,3 +31,68 @@
   color: var(--dark-primary);
   background: var(--white);
 }
+
+.btn--with-icon {
+  gap: 12px;
+}
+
+.btn--with-icon svg {
+  transition: transform 0.3s ease;
+}
+
+.btn:focus {
+  outline: none;
+}
+
+.btn:focus-visible {
+  outline: var(--outline);
+  outline-offset: var(--outline-offset);
+}
+
+@media (any-hover: hover) {
+  .btn--theme-dark:hover {
+    color: var(--dark-primary);
+    background-color: var(--light-grey);
+  }
+}
+
+.btn--theme-dark:active {
+  color: var(--white);
+  background-color: var(--dark-primary);
+}
+
+@media (any-hover: hover) {
+  .btn--theme-light:hover {
+    color: var(--white);
+    background-color: var(--primary);
+  }
+}
+
+.btn--theme-light:active {
+  color: var(--white);
+  background-color: var(--dark-primary);
+}
+
+@media (any-hover: hover) {
+  .btn--theme-darker:hover {
+    color: var(--white);
+    background-color: var(--primary);
+  }
+}
+
+.btn--theme-darker:active {
+  color: var(--dark-primary);
+  background-color: var(--light-grey);
+}
+
+@media (any-hover: hover) {
+  .btn--theme-white:hover {
+    color: var(--white);
+    background-color: var(--primary);
+  }
+}
+
+.btn--theme-white:active {
+  color: var(--white);
+  background-color: var(--dark-primary);
+}

@@ -43,3 +43,8 @@
 .custom-checkbox__input:checked + .custom-checkbox__icon::after {
   opacity: 1;
 }
+
+.custom-checkbox__input:focus-visible + .custom-checkbox__icon {
+  outline: 2px dashed var(--dark-primary);
+  outline-offset: var(--outline-offset);
+}

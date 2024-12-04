@@ -10,6 +10,7 @@
 
 .page__body {
   font-family: var(--font-family);
+  min-width: 390px;
 }
 
 .container {
@@ -52,4 +53,8 @@ input::-webkit-inner-spin-button {
 /* Firefox */
 input[type="number"] {
   -moz-appearance: textfield;
+}
+
+.stop-scroll {
+  overflow: hidden;
 }

@@ -7,6 +7,10 @@
   padding-top: 12px;
 }
 
+.catalog__mobile-btn {
+  display: none;
+}
+
 .catalog__wrapper {
   grid-column: 9 span;
 }
