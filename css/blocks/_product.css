@@ -51,6 +51,10 @@
   color: var(--dark-primary);
 }
 
+.product__price--slider {
+  margin-bottom: 20px;
+}
+
 .product__link:focus {
   outline: none;
 }

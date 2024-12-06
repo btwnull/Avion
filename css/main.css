@@ -41,5 +41,8 @@
 /* cart */
 @import url("blocks/_cart.css");
 
+/* slider */
+@import url("blocks/_slider.css");
+
 /* media */
 @import url("blocks/_media.css");
