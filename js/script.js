@@ -9,6 +9,17 @@ document.addEventListener("DOMContentLoaded", () => {
   const sliderTabs = document.querySelectorAll(".slider-tab");
   let currentIndex = 0; // Начальный индекс слайда
   const totalSlides = slides.length;
+  const contact = document.querySelector("#contact");
+  const contactLink = document.querySelector(".header__link-cart");
+
+  function transitionContact() {
+    contact.scrollIntoView({ behavior: "smooth" });
+  }
+
+  contactLink.addEventListener("click", (event) => {
+    event.preventDefault(); // Отменяем стандартное поведение ссылки
+    transitionContact();
+  });
 
   function updateSlider() {
     sliderList.style.transform = `translateX(-${currentIndex * 30}%)`;

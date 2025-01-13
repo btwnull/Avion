@@ -4,9 +4,9 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Avion</title>
-    <link rel="stylesheet" href="/css/main.css" />
+    <link rel="stylesheet" href="./css/main.css" />
     <script src="https://cdn.jsdelivr.net/npm/transfer-elements@1.0.7/dist/transfer-elements.min.js"></script>
-    <script src="/js/script.js" defer></script>
+    <script src="./js/script.js" defer></script>
   </head>
   <body class="page__body">
     <div class="notice">
@@ -52,16 +52,16 @@
     <header class="header">
       <div class="header__top">
         <div class="container header__container header__top-container">
-          <a href="/" class="logo">
-            <img src="/img/logo.svg" alt="Avion Logo" />
+          <a href="./index.html" class="logo">
+            <img src="./img/logo.svg" alt="Avion Logo" />
           </a>
           <div class="header__details">
             <ul class="list-reset header__list">
               <li class="header__item">
-                <a href="#" class="header__link">About us</a>
+                <a href="./about.html" class="header__link">About us</a>
               </li>
               <li class="header__item">
-                <a href="#" class="header__link">Contact</a>
+                <a href="#" class="header__link header__link-cart">Contact</a>
               </li>
               <li class="header__item">
                 <a href="#" class="header__link">Blog</a>
@@ -87,7 +87,11 @@
                   />
                 </svg>
               </button>
-              <button class="btn-reset header__button" aria-label="Cart">
+              <button
+                class="btn-reset header__button"
+                aria-label="Cart"
+                onclick="window.location.href = './cart.html'"
+              >
                 <svg
                   width="16"
                   height="16"
@@ -152,7 +156,7 @@
           <nav class="nav">
             <ul class="list-reset nav__list">
               <li class="nav__item">
-                <a href="#" class="nav__link">All products</a>
+                <a href="./catalog.html" class="nav__link">All products</a>
               </li>
               <li class="nav__item">
                 <a href="#" class="nav__link">Plant pots</a>
@@ -186,9 +190,9 @@
           <div class="product-info__content">
             <div class="product-info__image">
               <img
-                src="/img/product.jpg"
+                src="./img/product.jpg"
                 alt=""
-                srcset="/img/product_2x.jpg 2x"
+                srcset="./img/product_2x.jpg 2x"
                 aria-hidden="false"
                 width="607"
                 height="661"
@@ -270,8 +274,8 @@
               <article class="product">
                 <div class="product__top">
                   <img
-                    src="/img/product-5.jpg"
-                    srcset="/img/product-5_2x.jpg"
+                    src="./img/product-5.jpg"
+                    srcset="./img/product-5_2x.jpg"
                     width="630"
                     height="375"
                     loading="lazy"
@@ -292,8 +296,8 @@
               <article class="product">
                 <div class="product__top">
                   <img
-                    src="/img/product-6.jpg"
-                    srcset="/img/product-6_2x.jpg"
+                    src="./img/product-6.jpg"
+                    srcset="./img/product-6_2x.jpg"
                     width="305"
                     height="375"
                     loading="lazy"
@@ -314,8 +318,8 @@
               <article class="product">
                 <div class="product__top">
                   <img
-                    src="/img/product-7.jpg"
-                    srcset="/img/product-7_2x.jpg"
+                    src="./img/product-7.jpg"
+                    srcset="./img/product-7_2x.jpg"
                     width="305"
                     height="375"
                     loading="lazy"
@@ -423,7 +427,7 @@
                 <a href="#" class="footer__link">Popular this week</a>
               </li>
               <li class="footer__item">
-                <a href="#" class="footer__link">All products</a>
+                <a href="./catalog.html" class="footer__link">All products</a>
               </li>
             </ul>
           </div>
@@ -454,13 +458,13 @@
             <h2 class="footer__title">Our company</h2>
             <ul class="list-reset footer__list">
               <li class="footer__item">
-                <a href="#" class="footer__link">About us</a>
+                <a href="./about.html" class="footer__link">About us</a>
               </li>
               <li class="footer__item">
                 <a href="#" class="footer__link">Vacancies</a>
               </li>
               <li class="footer__item">
-                <a href="#" class="footer__link">Contact us</a>
+                <a href="#" class="footer__link" id="contact">Contact us</a>
               </li>
               <li class="footer__item">
                 <a href="#" class="footer__link">Privacy</a>
