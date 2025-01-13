@@ -218,15 +218,15 @@
     height: 201px;
   }
 
-  .products__list--mobile-slider {
+  /* .products__list--mobile-slider {
     display: flex;
     width: calc(100% + var(--container-offset));
     overflow-y: auto;
-  }
-  .products__list--mobile-slider .products__item {
+  } */
+  /* .products__list--mobile-slider .products__item {
     width: 200px;
     flex-shrink: 0;
-  }
+  } */
 
   .newsletter {
     padding: 0;
